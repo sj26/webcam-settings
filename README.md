@@ -16,7 +16,7 @@ when needed. No window, menu-bar icon, video capture, or third-party runtime.
 ### Homebrew
 
 ```sh
-brew install sj26/tap/webcam-settings
+brew install sj26/tools/webcam-settings
 brew services start webcam-settings
 ```
 
