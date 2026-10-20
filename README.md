@@ -16,9 +16,15 @@ when needed. No window, menu-bar icon, video capture, or third-party runtime.
 ### Homebrew
 
 ```sh
-brew install sj26/tools/webcam-settings
+brew install sj26/tap/webcam-settings
 brew services start webcam-settings
 ```
+
+Already installed from `sj26/tools`? Run `brew tap sj26/tap` before
+`brew update`. The old tap's migration metadata moves the installed receipt
+without rebuilding the keg or restarting the service. See the
+[tap migration notes](https://github.com/sj26/homebrew-tap#moving-from-the-old-taps)
+if Homebrew skipped migration because the destination was not yet trusted.
 
 The formula builds from source. Homebrew manages the background service:
 
